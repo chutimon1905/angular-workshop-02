@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< HEAD
 import { Product } from 'src/app/models/product';
 import { ProductService } from 'src/app/services/product.service';
 import { ProductDetailComponent } from '../product-detail/product-detail.component';
@@ -31,4 +32,19 @@ export class ProductListComponent implements OnInit {
     console.log('able to click');
     this.productSelected = product;
   }
+=======
+
+@Component({
+  selector: 'app-product-list',
+  templateUrl: './product-list.component.html',
+  styleUrls: ['./product-list.component.css']
+})
+export class ProductListComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+
+>>>>>>> f381d5f8e8b476a785d93a282bcf98de891dd24f
 }

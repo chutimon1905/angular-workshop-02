@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+<<<<<<< HEAD
 import { LoginComponent } from './login/login.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { AuthGuard } from 'src/app/auth.guard';
@@ -23,3 +24,13 @@ const routes: Routes = [
   exports: [RouterModule],
 })
 export class AppRoutingModule {}
+=======
+
+const routes: Routes = [];
+
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
+>>>>>>> f381d5f8e8b476a785d93a282bcf98de891dd24f

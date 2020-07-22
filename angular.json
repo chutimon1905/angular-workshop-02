@@ -19,9 +19,20 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+<<<<<<< HEAD
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
             "scripts": ["src/modalBoostrapScript.js"]
+=======
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> f381d5f8e8b476a785d93a282bcf98de891dd24f
           },
           "configurations": {
             "production": {
@@ -78,9 +89,20 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
+<<<<<<< HEAD
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.css"],
             "scripts": ["src/modalBoostrapScript.js"]
+=======
+            "assets": [
+              "src/favicon.ico",
+              "src/assets"
+            ],
+            "styles": [
+              "src/styles.css"
+            ],
+            "scripts": []
+>>>>>>> f381d5f8e8b476a785d93a282bcf98de891dd24f
           }
         },
         "lint": {
@@ -91,7 +113,13 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
+<<<<<<< HEAD
             "exclude": ["**/node_modules/**"]
+=======
+            "exclude": [
+              "**/node_modules/**"
+            ]
+>>>>>>> f381d5f8e8b476a785d93a282bcf98de891dd24f
           }
         },
         "e2e": {
@@ -107,7 +135,11 @@
           }
         }
       }
+<<<<<<< HEAD
     }
   },
+=======
+    }},
+>>>>>>> f381d5f8e8b476a785d93a282bcf98de891dd24f
   "defaultProject": "product-app"
 }
